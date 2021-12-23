@@ -1,11 +1,8 @@
-# rpi-projects
-## ngrok
+# rpi-projects - ngrok
 
-For our Raspberry Pi project  which needs to expose a service on the public Internet (ex HTTP/HTTPS service), through DSL domestic connection behind NAT, we use
-**ngrok** [Web site] (http://www.ngrok.com) public tunneling service. For our purpose (development and demostration) the free options of the service is enough.
-
-In our development environment the Raspberry Pi computer uses WiFi connection to link the domestic Wifi Lan, wich ha natted IPs. The public Internet connection
-is made through the DSL conection wich has a public IP, NATTED towards the internal LAN IPs.
+For our Raspberry Pi projects, executed in our domestic wifi network, we use **ngrok** tunneling service [Web site] (http://www.ngrok.com) to expose a service behind 
+a NAT on the public Internet (ex HTTP/HTTPS service). 
+For our purpose (development and demostration) the free options of the service is enough.
 
 To use **ngrok**  we need to follow these steps:
 
